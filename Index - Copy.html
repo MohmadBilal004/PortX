@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script>  
+        function validate2(){
+          var upassword = document.getElementById("txtPassword").value;
+          var cpassword = document.getElementById("txtPass").value;
+          var bool;
+          if(upassword != cpassword){
+          alert("Please confirm the Password");
+         
+    }
+}
+</script>
+
+    <div class = "container">
+        <form action="RegistrationHandler.php" method="post">
+            <h2>Driver Registration Form</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">First Name</label>
+                    <input type="text" placeholder="Enter your first name" id = "txtFname" name = "txtFname" required>
+                </div>
+                <div class="input-box">
+                    <label for="username">Last Name</label>
+                    <input type="text" placeholder="Enter your last name" id = "txtLname"  name = "txtLname" required>
+                </div>
+                <div class="input-box">
+                    <label for="nic">National Identity Card</label>
+                    <input type="text" placeholder="Enter your NIC Number" id =  "txtNic" name = "txtNic" required>
+                </div>
+                <div class="input-box">
+                    <label for="Licsense">Driving Licsense</label>
+                    <input type="text" placeholder="Enter your Driving Licsense" id = "txtDLicsense" name = "txtDLicsense" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter valid Email address" id = "txtEmail" name = "txtEmail" required>
+                </div>
+                <div class="input-box">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" placeholder="Enter phone number" id = "txtPhone" name = "txtPhone" required>
+                </div>
+           
+                <div class="input-box">
+                    <label for="image">Profile picture</label>
+                    <input type="file" placeholder="Upload your picture" id= "image" name = "image">
+                </div>
+                
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter new password" id = "txtPassword" name = "txtPassword" required>
+                </div>
+                <div class="input-box">
+                    <label for="txtPass">Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" id = "txtPass" name = "txtPass" required>
+                </div>
+                <span class = "gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="gender">Female</label>
+                </div>
+            </div>
+            <div class="alert">
+                <p>By clicking Sign up, you agree to our  <a href="#">terms</a> , <a href="#">privacy policy</a> and  <a href="#">cookies policy </a>. You may recieve sms notifications from  us and can opt out at any time.
+                </p>
+            </div>
+            <div class="button-container">
+                <button type = "submit">Register</button>   
+            </div>
+        </form>
+    </div>
+</body>
+</html>
