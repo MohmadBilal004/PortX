@@ -80,19 +80,26 @@ body{
 }
 
 .wrapper .main_content{
+  justify-content: center;
+  position: relative;
+  text-align: center;
   width: 100%;
   margin-left: 200px;
 }
 
 .wrapper .main_content .header{
-  padding: 20px;
+  font-size: 40px;
+  padding: 40px;
   background: #fff;
   color: #717171;
   border-bottom: 1px solid #e0e4e8;
 }
 
 .wrapper .main_content .info{
-  margin: 20px;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin: 30px;
   color: #717171;
   line-height: 25px;
 }
