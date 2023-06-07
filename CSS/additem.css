@@ -17,7 +17,7 @@ body {
     height: 860px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
-    top: 80%;
+    top:70%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -55,13 +55,15 @@ body {
 .container select {
     width: 50%;
     margin-bottom: 1px;
+    margin-top: 10px;
 }
 
 .container input[ type="text"],
 input[ type="file"],
 input[ type="number"],
 input[ type="email"],
-input[ type="tel"]
+input[ type="tel"],
+select
 {
     height: 35px;
     width: 50%;
@@ -71,15 +73,12 @@ input[ type="tel"]
     outline: none;
 }
 
-select{
-    height: 35px;
-    width: 50%;
-    padding: 0 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    outline: none;
+ .gender-title{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: large;
 }
-
 .Submitbtn{
     border: none;
     outline: none;
@@ -98,9 +97,18 @@ select{
 }
 
 
-label {
+label{
     width: 240px;
     display: inline-block;
 }
 
+span{
+    padding: 8px;
+    width:10px;
+    display: inline-block;
+}
+
+#male, #female{
+    width:150px;
+}
 

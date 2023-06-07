@@ -30,8 +30,21 @@ if(isset($_POST["Submitbtn"])){
         die("Cannot connect to Database Server"); 
     }
 
+    
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $input = $_POST["txtNic"];
+    
+    if (strlen($input) !== 12 || (substr($input, -1) !== "x" && substr($input, -1) !== "v")) {
+        echo "Input should be 12 characters long and end with 'x' or 'v'!";
+        // Stop further processing or redirection
+        exit();
+    }
+    // Process or push the data further
+    // ...
     $sql = "INSERT INTO `drivertbl`(`Fname`, `LName`, `NICno`, `Licsense`, `Location`, `Email`, `Phone`, `Gender`, `Photo`, `Jobs`, `Kilometers`, `Fuelcharges`, `serviceCharges`, `Commission`) VALUES ('".$Fname."','".$Lname."','".$nicNo."','".$Licsense."','".$Location."','".$Email."','".$Phone."','".$gender."','".$image."','".$jobs."','".$kilometer."','".$fuel."','".$service."','".$commission."')"; 
     mysqli_query($con, $sql);
+}
+
 
   
 }
