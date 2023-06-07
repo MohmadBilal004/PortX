@@ -135,27 +135,27 @@
                 </div>
                 <div class="input-box">
                     <label for="phonenumber">Kilometer driven</label>
-                    <input type="number" placeholder="Enter Kilometer driven" id = "txtkilometer" name = "txtkilometer" >
+                    <input type="number" placeholder="Enter Kilometer driven" id = "txtkilometer" name = "txtkilometer" value="0" required>
                 </div>
 
                 <div class="input-box">
                     <label for="phonenumber">Commission per kilometer</label>
-                    <input type="number" placeholder="Enter commission" id = "txtcomission" name = "txtcomission" >
+                    <input type="number" placeholder="Enter commission" id = "txtcomission" name = "txtcomission" value="0" required>
                 </div>
 
                 <div class="input-box">
                     <label for="phonenumber">Jobs Done</label>
-                    <input type="number" placeholder="Number of Jobs Done" id = "txtjobs" name = "txtjobs" >
+                    <input type="number" placeholder="Number of Jobs Done" id = "txtjobs" name = "txtjobs" value="0" required>
                 </div>
 
                 <div class="input-box">
                     <label for="phonenumber">Fuel Charges</label>
-                    <input type="number" placeholder="Enter Fuel charges" id = "txtfuel" name = "txtfuel" >
+                    <input type="number" placeholder="Enter Fuel charges" id = "txtfuel" name = "txtfuel" value="0" required>
                 </div>
 
                 <div class="input-box">
                     <label for="phonenumber">Service Charges</label>
-                    <input type="number" placeholder="Enter Service charges" id = "txtservice" name = "txtservice" >
+                    <input type="number" placeholder="Enter Service charges" id = "txtservice" name = "txtservice" value="0" required>
                 </div>
 
                 <div class="input-box">
