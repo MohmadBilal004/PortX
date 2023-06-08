@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    cursor: url(img/car.png), default;
+}
+.div1 {
+    border-radius: 2px;
+    backdrop-filter: blur(11px);
+    padding: 20px;
+    margin-left: auto;
+     margin-right: auto;
+    width: 40%;
+          
+         
+
+          
+          
+         
+
+  }
+  .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+  }
+  form{
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+
+  }
+  #myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+
+  #myBar {
+    width: 1%;
+    height: 20px;
+    background-color: gray;
+  }
+  body{margin-top:20px;}
+  .cart-item-thumb {
+      display: block;
+      width: 10rem
+  }
+  
+  .cart-item-thumb>img {
+      display: block;
+      width: 100%
+  }
+  
+  .product-card-title>a {
+      color: #222;
+  }
+  
+  .font-weight-semibold {
+      font-weight: 600 !important;
+  }
+  
+  .product-card-title {
+      display: block;
+      margin-bottom: .75rem;
+      padding-bottom: .875rem;
+      border-bottom: 1px dashed #e2e2e2;
+      font-size: 1rem;
+      font-weight: normal;
+  }
+  
+  .text-muted {
+      color: #888 !important;
+  }
+  
+  .bg-secondary {
+      background-color: #f7f7f7 !important;
+  }
+  
+  .accordion .accordion-heading {
+      margin-bottom: 0;
+      font-size: 1rem;
+      font-weight: bold;
+  }
+  .font-weight-semibold {
+      font-weight: 600 !important;
+  }
+
+
+
+
+
+
+ 
